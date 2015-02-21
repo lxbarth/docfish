@@ -6,7 +6,7 @@ Example site using the Docfish site generator.
 
 ## Build
 
-Build by running docfish's `node index.js` in directory. This will create a directory `_site/` with the fully built web site.
+Build by running docfish's `node index.js` in directory. This will create a directory `_site/` with the fully built web site. View the site with a web server like [serve]().
 
 ## Tour
 
