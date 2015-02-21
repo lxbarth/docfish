@@ -11,4 +11,4 @@ Site generator for multilingual docs, markdown and i18n to the bone. Early exper
 
 ## Example
 
-example/
+See `example/` directory.
