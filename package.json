@@ -1,0 +1,9 @@
+{
+    "name": "Docfish",
+    "version": "0.0.1",
+    "description": "Opinionated multilingual docs",
+    "dependencies": {
+        "marked": "0.3.3",
+        "underscore": "1.8.1"
+    }
+}
