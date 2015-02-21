@@ -1,6 +1,6 @@
 # Docfish
 
-Site generator for multilingual docs, markdown and i18n to the bone.
+Site generator for multilingual docs, markdown and i18n to the bone. Early experimental stages.
 
 ## Use
 
