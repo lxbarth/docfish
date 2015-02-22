@@ -30,10 +30,11 @@ Will turn into:
     http://example.com/en/introduction/
 
 ### Root directory:
-
+    
+    docfish
     ls -l
-    _site      # generated web site
-    _templates # templates used to generate web site
+    _docfish/site      # generated web site
+    _docfish/templates # templates used to generate web site
     en         # English version
     es         # Spanish version
 
@@ -62,7 +63,7 @@ Docfish recognizes any text files in language directories. It will interpret any
 
 ### Template directories
 
-    ls -l _templates/
+    ls -l _docfish/templates/
     doc.html
     site.html
 
