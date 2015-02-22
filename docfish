@@ -1,0 +1,4 @@
+#!/usr/bin/env node
+
+var docfish = require('./lib/docfish.js');
+docfish.build();
