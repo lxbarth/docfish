@@ -1,3 +1,3 @@
 # Guía de OpenStreetMap
 
-{{TOC}}
+<%= toc %>
