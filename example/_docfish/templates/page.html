@@ -7,8 +7,8 @@
 </head>
 <body>
     <h1><%= siteTitle%></h1>
-    <% _(translationLinks).each(function(l) { %>
-        <a href="<%= l.permalink%>"><%= l.langName%></a>
+    <% _(translations).each(function(d) { %>
+        <a href="<%= d.permalink%>"><%= cfg.languages[d.lang]%></a>
     <% }); %>
     <%= content %>
 </body>
