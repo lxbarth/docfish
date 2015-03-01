@@ -4,7 +4,11 @@
   <meta charset='UTF-8'/>
   <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
   <title><%= title%></title>
+</head>
 <body>
+    <% _(translationLinks).each(function(l) { %>
+        <a href="<%= l.permalink%>"><%= l.langName%></a>
+    <% }); %>
     <%= content %>
 </body>
 </html>
