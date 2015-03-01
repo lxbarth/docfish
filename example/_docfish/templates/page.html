@@ -6,7 +6,7 @@
   <title><% if (title != siteTitle) { %><%= title%> - <% } %><%= siteTitle%></title>
 </head>
 <body>
-    <h1 class='site-title'><%= siteTitle%></h1>
+    <h1><%= siteTitle%></h1>
     <% _(translationLinks).each(function(l) { %>
         <a href="<%= l.permalink%>"><%= l.langName%></a>
     <% }); %>
