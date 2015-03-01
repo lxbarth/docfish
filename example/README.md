@@ -64,7 +64,7 @@ Docfish recognizes any text files in language directories. It will interpret any
 ### Template directories
 
     ls -l _docfish/templates/
-    doc.html
-    site.html
+    page.html
+    toc.html
 
-There are only two templates for the site: the overall HTML site template (`site.html`) and the document template (`doc.html`).
+There are only two templates for the site: the overall HTML page template (`page.html`) and the template for the table of content (`toc.html`).
